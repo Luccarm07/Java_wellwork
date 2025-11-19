@@ -1,0 +1,12 @@
+# Excluir pastas e arquivos que não são necessários para o BUILD (Stage 1)
+.mvn/
+.gitignore
+.idea/
+.classpath
+.project
+.settings/
+*.iml
+*.iws
+
+# Excluir a pasta de output para evitar copiar classes antigas
+target/
